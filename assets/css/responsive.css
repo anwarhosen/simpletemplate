@@ -1,0 +1,570 @@
+/* This CSS for small Mobile*/
+@media (max-width: 767px) {
+a#simple-menu {display:block;}
+.mainmenu {display:none;}
+#simple-menu img {
+  margin: 15px 30px;
+}
+.sidr.left {
+  width: 150px;
+}
+.menu_search_right input[type="text"] {
+  height: 39px;
+  margin-top: -10px;
+  width: 145px;
+}
+.search_img {
+  margin-top: -2px;
+}
+.footer_social {
+  display: none;
+}
+.footer_mobile_menu ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 10px 0 0 5px;
+}
+.footer_mobile_menu ul li{
+  float: left;
+  padding: 0 5px;
+}
+.footer_mobile_menu p {
+  padding: 40px 0 0 10px;
+  color: #fff;
+}
+/* COMMON CSS END */
+/*  Home and Post Details Page Start  */
+.blog_part h2 {
+  font-size: 23px;
+}
+.blog_part {
+  padding: 30px 0 70px 30px;
+  margin-top: 0px;
+}
+.blog_part ul li {
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 135px;
+  float: none;
+}
+.blog_part ul li a {
+  margin-top: 20px;
+}
+.blog_img {
+  margin-top: 25px !important;
+  width: 95%;
+}
+.blog_part p {
+  width: 90%;
+}
+.blog_menu{
+  display: none
+}
+.sidebar {
+  margin-top: 30px;
+  width: 100%;
+}
+.sidebar > .row > div {
+  border: 1px solid #d9dbdd;
+  box-shadow: -2px -1px 4px 0 #e7e7e7;
+  padding: 0 30px 5px;
+}
+.single_post_mobile_menu ul {
+  list-style: outside none none;
+  padding: 0;
+  margin-top: 15px !important;
+}
+.single_post_mobile_menu ul li {
+  float: left !important;
+  padding: 5px 10px !important;
+  width: 25px;
+  background: none !important;
+  border: none !important;
+}
+.single_post_mobile_menu ul li:first-child {
+  width: 95px;
+}
+.sidebar_tags {
+  padding-bottom: 275px !important;
+}
+.sidebar_recent_post {
+  padding-left: 15px;
+}
+.sidebar_tags ul li {
+  padding: 4px 6px;
+}
+.sidebar_tags ul li a {
+  font-size: 11px;
+}
+.single_post_menu{
+  display: none;
+}
+/*  Home Page End  */
+/*  Post Details Page Start  */
+.post_comment input[type="text"], .post_comment textarea {
+  padding-left: 10px;
+  width: 100%;
+}
+/*  Post Details Page End  */
+/*  Home and Post Details Page End  */
+/*  Typography/Categories Page Start   */
+.heading {
+  padding: 1px 30px 0;
+  margin-top: 0px;
+}
+.heading h3 {
+  padding-top: 15px;
+  margin-top: 0px;
+}
+/*  Typography/Categories Page End   */
+/*  Contact/Component Part Start  */
+.button_part {
+  margin-bottom: 40px;
+}
+.continue_btn, .search_btn, .responsive_btn, .numeric_btn, .next_btn, .post_comment_btn {
+  margin-bottom: 5px;
+  margin-right: 0px; 
+}
+.search_btn {
+  width: 235px;
+}
+.button_part ul li {
+  float: none;
+  margin-top: 5px;
+}
+.social_icon_part {
+  margin-bottom: 40px;
+  padding: 20px 30px 90px;
+}
+.social_icon_part ul li {
+  padding-right: 7px;
+}
+.black_icon li:first-child{
+  margin-left: 10px !important;
+}
+.icon_part {
+  padding: 20px 30px 70px;
+}
+/*  Contact/Component Page end Here  */
+/*  Signin-Signin/Login Page Start  */
+.register_form {
+  border-right: 0px;
+}
+.form_area {
+  margin-top: 0px;
+}
+.register_form input[type="text"], .login_form input[type="text"] {
+  width: 100%;
+}
+.register_form p {
+  text-align: justify;
+  width: 100%
+}
+.signup_button {
+  margin-left: 60%;
+}
+.login_button {
+  margin-left: 65%;
+}
+/*  Signin-Signin/Login Page End  */
+/*  Registration/Post-Entry Page Start */
+.form_part input[type="text"], .form_part textarea {
+  width: 90%;
+}
+.form_part input[type="file"] {
+  background: url("../images/browser_button.png") no-repeat scroll 99% 50% rgba(0, 0, 0, 0);
+  width: 60%;
+}
+.button_resize {
+  margin-left: 43%;
+}
+/*  Registration/Post-Entry Page End */
+
+}
+
+/* This CSS for Tablet */
+@media (min-width: 768px) {
+a#simple-menu {display:none;}
+.mainmenu {display:block;}
+.menu_search_right input[type="text"] {
+  height: 40px;
+  width: 195px;
+}
+.mainmenu ul li a {
+  padding: 0px 8px;
+}
+.footer_mobile_menu {
+  display: none;
+}
+/* COMMON CSS END */
+/*  Home and Post Details Page Start  */
+.single_post_mobile_menu{
+  display: none
+}
+.blog_part h2{
+  font-size: 25px;
+}
+.blog_part ul li {
+  float: left;
+  margin-right: 10px;
+}
+.sidebar {
+  margin-top: 30px;
+  width: 33%;
+}
+.sidebar_post_detail p {
+  color: #a3a9b0;
+  font-size: 12px;
+  line-height: 11px;
+  margin-left: 35px !important;
+  padding-bottom: 5px;
+}
+
+.sidebar_post_detail h4 {
+  font-size: 16px;
+  margin-left: 35px;
+}
+.red_text_user {
+  color: #ea6456;
+  line-height: 0;
+  margin-top: 20px;
+}
+.sidebar_recent_post p {
+  font-size: 14px;
+  margin-left: 30px;
+}
+.sidebar_tags ul li {
+  padding: 4px 6px;
+}
+.sidebar_tags ul li a {
+  font-size: 11px;
+}
+/*  Home Page End  */
+/*  Post Details Page Start  */
+.circle_img_text{
+  margin-left: 18px;
+}
+.post_comment input[type="text"] {
+  padding-left: 10px;
+  width: 44%;
+}
+.post_comment textarea {
+  padding-left: 10px;
+  width: 93%;
+}
+/*  Post Details Page End  */
+/*  Home and Post Details Page End  */
+/*  Typography/Categories Page Start   */
+.heading {
+  margin-top: 50px;
+  padding: 0 30px;
+}
+.heading h3 {
+  margin-top: 30px;
+}
+/*  Typography/Categories Page End  */
+/*  Contact/Component Part Start  */
+.button_part ul li {
+  padding-right: 0px;
+  float: left;
+}
+.search_btn {
+  width: 120px;
+}
+.continue_btn {
+  width: 137px;
+}
+.post_comment_btn {
+  width: 150px;
+}
+.numeric_btn {
+  margin-right: 7px;
+}
+.social_icon_part ul li {
+  padding-right: 15px;
+}
+/*  Contact/Component Page end Here  */
+/*  Signin-Signin/Login Page Start  */
+.register_form input[type="text"], .login_form input[type="text"]{
+  width: 240px;
+}
+.login_form {
+  padding-left: 45px;
+}
+.signup_button {
+  margin-left: 15px;
+}
+.login_button {
+  margin: -12px 0 0;
+}
+/*  Signin-Signin/Login Page End  */
+/*  Registration/Post-Entry Page Start */
+.button_resize {
+  margin-left: 0px;
+}
+.form_part input[type="text"], .form_part textarea {
+  width: 655px;
+}
+.form_part input[type="file"] {
+  background-position: 265px 4px;
+  width: 340px;
+}
+/*  Registration/Post-Entry Page End */
+}
+
+/* This CSS for Large Devices */
+@media (min-width: 992px) {
+a#simple-menu {display:none;}
+.mainmenu {display:block;}
+.menu_search_right input[type="text"] {
+  height: 40px;
+  width: 195px;
+}
+.mainmenu ul li a {
+  padding: 0px 15px;
+}
+.footer_mobile_menu {
+  display: none;
+}
+/* COMMON CSS END */
+/*  Home and Post Details Page Start  */
+.single_post_mobile_menu{
+  display: none
+}
+.blog_part h2{
+  font-size: 25px;
+}
+.blog_part ul li {
+  float: left;
+  margin-right: 10px;
+}
+.sidebar {
+  width: 31%;
+}
+.sidebar_post_detail h4 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-left: 20px;
+  color: #2f3c4e;
+}
+.sidebar_recent_post p {
+  font-size: 13px;
+  margin-left: 10px;
+}
+.sidebar_tags ul li {
+  padding: 4px 3px;
+}
+.sidebar_tags ul li a {
+  font-size: 12px;
+}
+.sidebar_post_detail p {
+  color: #a3a9b0;
+  font-size: 12px;
+  line-height: 11px;
+  margin-left: 22px !important;
+  padding-bottom: 5px;
+}
+/*  Home Page End  */
+/*  Post Details Page Start  */
+.post_comment input[type="text"] {
+  padding-left: 10px;
+  width: 45%;
+}
+.post_comment textarea {
+  padding-left: 10px;
+  width: 94%;
+}
+/*  Post Details Page End  */
+/*  Home and Post Details Page End  */
+/*  Typography/Categories Page Start   */
+.heading {
+  margin-top: 50px;
+  padding: 0 30px;
+}
+.heading h3 {
+  margin-top: 30px;
+}
+/*  Typography/Categories Page End   */
+/*  contact/Component Page Start Here  */
+.button_part ul li {
+  margin-right: 15px;
+  float: left;
+}
+.search_btn {
+  width: 150px;
+}
+.continue_btn {
+  width: 137px;
+}
+.post_comment_btn {
+  width: 150px;
+}
+.numeric_btn {
+  margin-right: 7px;
+}
+.social_icon_part ul li {
+  padding-right: 15px;
+}
+/*  Contact/Component Page end Here  */
+/*  Signin-Signin/Login Page Start  */
+.register_form input[type="text"],.login_form input[type="text"] {
+  width: 275px;
+}
+.signup_button {
+  margin-left: 72px;
+}
+.login_button {
+  margin: -12px 0 0 5px;
+}
+.login_form {
+  padding-left: 0px;
+}
+/*  Signin-Signin/Login Page End  */
+/*  Registration/Post-Entry Page Start */
+.button_resize {
+  margin-left: 60px;
+}
+.form_part input[type="text"], .form_part textarea {
+  width: 655px;
+}
+.form_part input[type="file"] {
+  background-position: 295px 4px;
+  width: 370px;
+}
+/*  Registration/Post-Entry Page End */
+}
+
+/* This CSS for Large Devices */
+@media (min-width: 1170px) {
+a#simple-menu {display:none;}
+.mainmenu {display:block;}
+.menu_search_right input[type="text"] {
+  height: 40px;
+  width: 195px;
+}
+.mainmenu ul li a {
+  padding: 0px 15px;
+}
+.footer_mobile_menu {
+  display: none;
+}
+/* COMMON CSS END */
+/*  Home and Post Details Page Start  */
+.single_post_mobile_menu{
+  display: none
+}
+.blog_part h2{
+  font-size: 25px;
+}
+.blog_part ul li {
+  float: left;
+  margin-right: 5px;
+}
+.sidebar {
+  width: 31%;
+}
+.sidebar_tags ul li {
+  padding: 4px 7px;
+}
+.sidebar_tags ul li a {
+  font-size: 11px;
+}
+.sidebar_post_detail h4 {
+  font-size: 16px;
+  margin-left: 12px;
+}
+.sidebar_post_detail p {
+  color: #a3a9b0;
+  font-size: 12px;
+  line-height: 11px;
+  margin-left: 15px !important;
+  padding-bottom: 5px;
+}
+/*  Home Page End  */
+/*  Post Details Page Start  */
+.post_comment input[type="text"] {
+  padding-left: 10px;
+  width: 45%;
+}
+.post_comment textarea {
+  padding-left: 10px;
+  width: 94%;
+}
+/*  Post Details Page End  */
+/*  Home and Post Details Page End  */
+/*  Typography/Categories Page Start   */
+.heading {
+  margin-top: 50px;
+  padding: 0 30px;
+}
+.heading h3 {
+  margin-top: 30px;
+}
+/*  Typography/Categories Page End   */
+/*  Contact/Component Page Start Here  */
+.button_part ul li {
+  margin-right: 15px;
+  float: left;
+}
+.search_btn {
+  width: 200px;
+}
+.social_icon_part ul li {
+  padding-right: 15px;
+}
+/*  Contact/Component Page end Here  */
+/*  Signin-Signin/Login Page Start  */
+.register_form input[type="text"],.login_form input[type="text"] {
+  width: 275px;
+}
+.signup_button {
+  margin-left: 72px;
+}
+.login_button {
+  margin: -12px 0 0 5px;
+}
+.login_form {
+  padding-left: 0px;
+}
+/*  Signin-Signin/Login Page End  */
+/*  Registration/Post-Entry Page Start */
+.button_resize {
+  margin-left: 52px;
+}
+.form_part input[type="text"],.form_part textarea {
+  width: 655px;
+}
+.form_part input[type="file"] {
+  background-position: 295px 4px;
+  width: 370px;
+}
+/*  Registration/Post-Entry Page End */
+.sidebar > .row > div {
+  border: 1px solid #d9dbdd;
+  box-shadow: -2px -1px 4px 0 #e7e7e7;
+  margin: 0 0 30px;
+  padding: 0 30px 5px;
+}
+}
+/* This CSS for Large Devices */
+@media (min-width: 1200px) {
+.sidebar_post_detail {
+  margin-left: -10px;
+  margin-top: -7px;
+}
+.sidebar_recent_post p {
+  font-size: 14px;
+  margin-left: -3px;
+}
+.button_part ul li {
+  float: left;
+}
+.sidebar {
+  width: 32%;
+  margin-left: 15px;
+}
+.search_btn {
+  width: 300px;
+}
+}
